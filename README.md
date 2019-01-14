@@ -25,7 +25,6 @@ sqlalchemy| ORM for python and SQL toolkit
 git| Version control tool
 requests| Python HTTP requests for humans
 psycopg2| DB for PostgreSQL and for multi-threaded applications
-pi
 ___
 
 # Amazon Lightsail
