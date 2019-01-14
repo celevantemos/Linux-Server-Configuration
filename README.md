@@ -11,6 +11,21 @@ It is to deploy the [*Item Catalog*](https://github.com/celevantemos/Item-Catalo
 * Domain Name: ec2-18-234-224-227.compute-1.amazonaws.com
 * Web URL: http://18.234.224.227.xip.io
 
+# Software Installed
+Name | Description
+-----|------------
+Apache2| Web Server
+virtualenv| Virtual environment for python
+libapache2-mod-wsgi| Apache module to support hosting python based web applications within Apache server
+Flask| Python web framework
+postgresql| Relational database system
+oauth2client| Python library for accessing OAuth2
+httplip2| HTTP client library
+sqlalchemy| ORM for python and SQL toolkit
+git| Version control tool
+requests| Python HTTP requests for humans
+psycopg2| DB for PostgreSQL and for multi-threaded applications
+pi
 ___
 
 # Amazon Lightsail
