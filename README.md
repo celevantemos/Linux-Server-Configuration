@@ -187,6 +187,17 @@ application.secret_key = "supersecretkey"
 * run the following: `sudo python database_setup.py` and `sudo python categoriesItems.py`
 * Deactivate the virtual environment `deactivate`
 
+
+## Make .git inaccessible by browser
+* Create a file in `.git` and name it `.htaccess`
+* The command `sudo nano /var/www/catalog/catalog/.git/.htaccess`
+* Put this code inside:
+```
+Order allow,deny
+Deny from all
+```
+* Save it and done
+
 ## Disable Apache's Default Site
 * Disable the default site by `sudo a2dissite 000-default.conf`
 * Reload apache `sudo service apache2 reload`
