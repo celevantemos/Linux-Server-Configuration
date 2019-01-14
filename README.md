@@ -4,7 +4,13 @@ This is a part of Udacity Full Stack Web Development Nanodegree project.
 # Project Description
 It is to deploy the [*Item Catalog*](https://github.com/celevantemos/Item-Catalog) web application, which is a previous project on Udacity Full Stack Web Development, on a virtual machine and host it. Also, it is to install or configure web and database servers.
 
-Open [Website here](http://18.234.224.227.xip.io) and you can type it: http://18.234.224.227.xip.io
+# Server Information
+* Public ID address: 18.234.224.227
+* Port: 2200
+* Username: grader
+* Domain Name: ec2-18-234-224-227.compute-1.amazonaws.com
+* Web URL: http://18.234.224.227.xip.io
+
 ___
 
 # Amazon Lightsail
@@ -35,6 +41,7 @@ ___
 * Run `sudo nano /etc/ssh/sshd_config`
 * Change the `Port` from `22` to `2200`
 * Change `PasswordAuthentication` from `yes` to `no`
+* Disable Remote connection by setting `PermitRootLogin` to `no`
 
 # Fourth: Configure UFW
 * Deny all incoming and allow all outgoing
